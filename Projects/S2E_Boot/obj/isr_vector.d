@@ -1,0 +1,9 @@
+.\obj\isr_vector.o: src\PlatformHandler\isr_vector.c
+.\obj\isr_vector.o: ..\S2E_App\src\W7500x_it.h
+.\obj\isr_vector.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\isr_vector.o: ..\..\Libraries\CMSIS\Include\core_cm0.h
+.\obj\isr_vector.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\isr_vector.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\obj\isr_vector.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\obj\isr_vector.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h
+.\obj\isr_vector.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h

@@ -1,0 +1,14 @@
+.\obj\ssd1306.o: src\SSD1306\ssd1306.c
+.\obj\ssd1306.o: src\SSD1306\ssd1306.h
+.\obj\ssd1306.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\ssd1306.o: src\SSD1306\font.h
+.\obj\ssd1306.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\w7500x.h
+.\obj\ssd1306.o: ..\..\Libraries\CMSIS\Include\core_cm0.h
+.\obj\ssd1306.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\ssd1306.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\obj\ssd1306.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\obj\ssd1306.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h
+.\obj\ssd1306.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\ssd1306.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h
+.\obj\ssd1306.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\ssd1306.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\w7500x_uart.h

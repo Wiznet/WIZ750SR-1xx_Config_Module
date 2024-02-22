@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>킮ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sdg sdg sdg Flex license: MDK Essential 5.31 (Flex): 1 user(s) (mdk_essential) Support: Sep 2020
+ 
+Tool Versions:
+Toolchain:       MDK Essential 5.31 (Flex): 1 user(s)  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.6.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+D:\projects\WIZ750SR_SSD1306\Projects\S2E_App\W7500x_S2E.uvproj
+Project File Date:  01/11/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'W7500x_S2E_App'
+compiling W7500x_it.c...
+.\src\PlatformHandler\configmoduleHandler.h(36): warning:  #1-D: last line of file ends without a newline
+  uint8_t set_flag_on_data_change(const uint32_t* prev_array, const uint32_t* current_array, uint16_t array_size);
+src\W7500x_it.c: 1 warning, 0 errors
+compiling main.c...
+.\src\PlatformHandler\configmoduleHandler.h(36): warning:  #1-D: last line of file ends without a newline
+  uint8_t set_flag_on_data_change(const uint32_t* prev_array, const uint32_t* current_array, uint16_t array_size);
+src\main.c(716): warning:  #1-D: last line of file ends without a newline
+  }
+src\main.c: 2 warnings, 0 errors
+compiling configmoduleHandler.c...
+src\PlatformHandler\configmoduleHandler.h(36): warning:  #1-D: last line of file ends without a newline
+  uint8_t set_flag_on_data_change(const uint32_t* prev_array, const uint32_t* current_array, uint16_t array_size);
+src\PlatformHandler\configmoduleHandler.c(448): warning:  #223-D: function "device_reboot" declared implicitly
+                              device_reboot();
+src\PlatformHandler\configmoduleHandler.c(488): warning:  #223-D: function "process_dhcp" declared implicitly
+                              process_dhcp();
+src\PlatformHandler\configmoduleHandler.c(489): warning:  #223-D: function "flash_update_start" declared implicitly
+                              flash_update_start();
+src\PlatformHandler\configmoduleHandler.c(491): warning:  #223-D: function "flash_update_end" declared implicitly
+                              flash_update_end();
+src\PlatformHandler\configmoduleHandler.c(492): warning:  #223-D: function "device_reboot" declared implicitly
+                              device_reboot();
+src\PlatformHandler\configmoduleHandler.c(575): warning:  #223-D: function "flash_update_start" declared implicitly
+                                      flash_update_start();
+src\PlatformHandler\configmoduleHandler.c(577): warning:  #223-D: function "flash_update_end" declared implicitly
+                                      flash_update_end();
+src\PlatformHandler\configmoduleHandler.c(578): warning:  #223-D: function "device_reboot" declared implicitly
+                                      device_reboot();
+src\PlatformHandler\configmoduleHandler.c(619): warning:  #223-D: function "flash_update_start" declared implicitly
+                                      flash_update_start();
+src\PlatformHandler\configmoduleHandler.c(621): warning:  #223-D: function "flash_update_end" declared implicitly
+                                      flash_update_end();
+src\PlatformHandler\configmoduleHandler.c(622): warning:  #223-D: function "device_reboot" declared implicitly
+                                      device_reboot();
+src\PlatformHandler\configmoduleHandler.c(698): warning:  #223-D: function "flash_update_start" declared implicitly
+                                      flash_update_start();
+src\PlatformHandler\configmoduleHandler.c(700): warning:  #223-D: function "flash_update_end" declared implicitly
+                                      flash_update_end();
+src\PlatformHandler\configmoduleHandler.c(701): warning:  #223-D: function "device_reboot" declared implicitly
+                                      device_reboot();
+src\PlatformHandler\configmoduleHandler.c(1074): warning:  #167-D: argument of type "char (*)[22]" is incompatible with parameter of type "const char (*)[22]"
+              screen_update_function(strings, 4, current_cursor, draw_line_status);
+src\PlatformHandler\configmoduleHandler.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=43600 RO-data=3012 RW-data=856 ZI-data=14192  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o "D:\projects\WIZ750SR_SSD1306\Projects\S2E_App\obj\W7500x_S2E_App.bin" "D:\projects\WIZ750SR_SSD1306\Projects\S2E_App\obj\W7500x_S2E_App.axf"
+After Build - User command #2: w7500_s2e_app_gen_production_hex2bin.bat
+D:\projects\WIZ750SR_SSD1306\Projects\S2E_App>copy /b /y obj\W7500x_S2E_App.bin bin\ 
+        1개 파일이 복사되었습니다.
+D:\projects\WIZ750SR_SSD1306\Projects\S2E_App>copy /b /y obj\W7500x_S2E_App.hex bin\ 
+        1개 파일이 복사되었습니다.
+D:\projects\WIZ750SR_SSD1306\Projects\S2E_App>copy /b /y ..\S2E_Boot\bin\W7500x_S2E_Boot.hex + bin\W7500x_S2E_App.hex ..\W7500x_S2E_Production.hex 
+..\S2E_Boot\bin\W7500x_S2E_Boot.hex
+bin\W7500x_S2E_App.hex
+        1개 파일이 복사되었습니다.
+D:\projects\WIZ750SR_SSD1306\Projects\S2E_App>..\hex2bin.exe ..\W7500x_S2E_Production.hex 
+hex2bin v1.0.4, Copyright (C) 1998 Jacques Pelletier
+checksum extensions Copyright (C) 2004 Rockwell Automation
+Lowest address  = 00000000
+Highest address = 000127C7
+Pad Byte        = FF
+8-bit Checksum = 66
+".\obj\W7500x_S2E_App.axf" - 0 Error(s), 19 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
